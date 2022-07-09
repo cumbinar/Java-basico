@@ -9,5 +9,22 @@ package linkedList;
  * @author educu
  */
 public class Humano {
+    private String cedula;
+
+    public Humano(String cedula) {
+        this.cedula = cedula;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
     
+    public void razonar(){
+    
+        System.out.println("El humano está razonando");
+   }
 }
