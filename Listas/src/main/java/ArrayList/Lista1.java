@@ -3,18 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ArrayList;
+
 import java.util.LinkedList;
 import java.util.Collections; //para orderar LinkedList
-
 
 /**
  *
  * @author educu
  */
 public class Lista1 {
+
     public static void main(String[] args) {
-        LinkedList<Integer> enteros =  new LinkedList<>();
-        
+        LinkedList<Integer> enteros = new LinkedList<>();
+
         enteros.add(20);
         enteros.add(59);
         enteros.add(12);
@@ -26,27 +27,25 @@ public class Lista1 {
         enteros.add(333);
         enteros.add(629);
         enteros.add(9);
-        
+
         System.out.println("En la posición 2 está el número " + enteros.get(1));
         System.out.println("En la posición 5 está el número " + enteros.get(6));
-        
+
         System.out.println("La lista de números es:");
-        
-        for(int i = 0; i < enteros.size(); i++) {  //recorrer el Array para imprimir
-            System.out.print(enteros.get(i)+ " , ");
+
+        for (int i = 0; i < enteros.size(); i++) {  //recorrer el Array para imprimir
+            System.out.print(enteros.get(i) + " , ");
         }
-        
+
         Collections.sort(enteros); //ordena la lista 
-        
+
         System.out.println(" ");
-        
+
         System.out.println("La lista ordenada de números es:");
-        for(float n: enteros){            //Otra forma de recorrer el array para imprimir
+        for (float n : enteros) {            //Otra forma de recorrer el array para imprimir
             System.out.print(n + ", ");
-        }  
-        
-        
-       
+        }
+
     }
-    
+
 }
