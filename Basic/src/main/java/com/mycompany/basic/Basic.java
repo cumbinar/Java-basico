@@ -15,8 +15,6 @@ public class Basic {
         
         int miVariableCumbi = 100;
         System.out.println("Mi variable vale: " + miVariableCumbi);
-        
-        String nombre = "Cumbi";
-        System.out.println("Mi nombre es " + nombre);
+       
     }
 }
