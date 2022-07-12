@@ -15,6 +15,9 @@ public class Basic {
         
         int miVariableCumbi = 100;
         System.out.println("Mi variable vale: " + miVariableCumbi);
+        
+       var variable2 = 150;
+        System.out.println("mi variable2 " + variable2);
        
     }
 }
