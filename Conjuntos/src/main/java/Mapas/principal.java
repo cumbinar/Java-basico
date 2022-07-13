@@ -4,6 +4,7 @@
  */
 package Mapas;
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  *
@@ -23,6 +24,24 @@ public class principal {
             System.out.println(llave);  // no imprime en orden de entrada
             System.out.println(calendario.get(llave));
         }
+        
+        
+        HashMap<String, String> directorio = new HashMap<>();
+        
+        Scanner in = new Scanner(System.in);
+        System.out.println("¿Cuántos nombres desea agregar?:  ");
+        int total = in.nextInt();
+
+        for (int i = 0; i < total; i++){
+            System.out.print("Ingrese el nombre del contacto: ");
+            String nombre = in.next();
+            System.out.print("Ingrese la cédula: ");
+            String cedula = in.next();
+            
+            directorio.put(nombre,cedula);
+        }
+        
+        System.out.println(directorio);
         
         
     }
