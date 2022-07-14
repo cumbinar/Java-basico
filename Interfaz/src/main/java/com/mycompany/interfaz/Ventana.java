@@ -41,7 +41,7 @@ public class Ventana extends JFrame {
         JLabel etiqueta1 = new JLabel();
         etiqueta1.setLayout(null);        
         etiqueta1.setText("  Catálogo"); //texto de la etiqueta
-        etiqueta1.setBounds(10,10,200,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta1.setBounds(10,10,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta1.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta1.setBackground(Color.BLACK); //color de fondo negro
         etiqueta1.setForeground(Color.YELLOW); //color de la letra
@@ -53,11 +53,11 @@ public class Ventana extends JFrame {
         JLabel etiqueta2 = new JLabel();
         etiqueta2.setLayout(null);        
         etiqueta2.setText("  Comprar");  //texto de la etiqueta
-        etiqueta2.setBounds(10,50,200,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta2.setBounds(10,50,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta2.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta2.setBackground(Color.BLACK); //color de fondo negro
         etiqueta2.setForeground(Color.YELLOW); //color de la letra
-        etiqueta2.setHorizontalAlignment(SwingConstants.CENTER); //justifica a la izquierda
+        etiqueta2.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
         etiqueta2.setFont(new Font("ARIAL",0,20)); //define fuente y tamaño
         panel.add(etiqueta2);
         
@@ -65,13 +65,15 @@ public class Ventana extends JFrame {
         JLabel etiqueta3 = new JLabel();
         etiqueta3.setLayout(null);        
         etiqueta3.setText("  Pagar  ");  //texto de la etiqueta
-        etiqueta3.setBounds(10,90,200,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta3.setBounds(10,90,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta3.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta3.setBackground(Color.BLACK); //color de fondo negro
         etiqueta3.setForeground(Color.YELLOW); //color de la letra
-        etiqueta3.setHorizontalAlignment(SwingConstants.RIGHT); //justifica a la izquierda
+        etiqueta3.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
         etiqueta3.setFont(new Font("ARIAL",0,20)); //define fuente y tamaño
         panel.add(etiqueta3); //agrega la etiqueta al panel
+        
+        
     }
     
     
