@@ -41,37 +41,50 @@ public class Ventana extends JFrame {
         JLabel etiqueta1 = new JLabel();
         etiqueta1.setLayout(null);        
         etiqueta1.setText("  Catálogo"); //texto de la etiqueta
-        etiqueta1.setBounds(10,10,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta1.setBounds(10,10,120,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta1.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta1.setBackground(Color.BLACK); //color de fondo negro
         etiqueta1.setForeground(Color.YELLOW); //color de la letra
         etiqueta1.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
-        etiqueta1.setFont(new Font("ARIAL",0,20));  //define fuente y tamaño
+        etiqueta1.setFont(new Font("ARIAL",0,16));  //define fuente y tamaño
         panel.add(etiqueta1);  //agrega la etiqueta al panel
         
          //Crear etiqueta 2
         JLabel etiqueta2 = new JLabel();
         etiqueta2.setLayout(null);        
         etiqueta2.setText("  Comprar");  //texto de la etiqueta
-        etiqueta2.setBounds(10,50,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta2.setBounds(10,50,120,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta2.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta2.setBackground(Color.BLACK); //color de fondo negro
         etiqueta2.setForeground(Color.YELLOW); //color de la letra
         etiqueta2.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
-        etiqueta2.setFont(new Font("ARIAL",0,20)); //define fuente y tamaño
+        etiqueta2.setFont(new Font("ARIAL",0,16)); //define fuente y tamaño
         panel.add(etiqueta2);
         
-          //Crear etiqueta 3
+           //Crear etiqueta 3
         JLabel etiqueta3 = new JLabel();
         etiqueta3.setLayout(null);        
-        etiqueta3.setText("  Pagar  ");  //texto de la etiqueta
-        etiqueta3.setBounds(10,90,150,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta3.setText("  Devolver");  //texto de la etiqueta
+        etiqueta3.setBounds(10,90,120,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
         etiqueta3.setOpaque(true); //dar permisos para cambiar el color de fondo
         etiqueta3.setBackground(Color.BLACK); //color de fondo negro
         etiqueta3.setForeground(Color.YELLOW); //color de la letra
         etiqueta3.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
-        etiqueta3.setFont(new Font("ARIAL",0,20)); //define fuente y tamaño
+        etiqueta3.setFont(new Font("ARIAL",0,16)); //define fuente y tamaño
         panel.add(etiqueta3); //agrega la etiqueta al panel
+        
+        
+          //Crear etiqueta 4
+        JLabel etiqueta4 = new JLabel();
+        etiqueta4.setLayout(null);        
+        etiqueta4.setText("  Garantía");  //texto de la etiqueta
+        etiqueta4.setBounds(10,130,120,30); //no se mueve se ubica en las coordenada x=10, y=10, ancho 300px, alto,        
+        etiqueta4.setOpaque(true); //dar permisos para cambiar el color de fondo
+        etiqueta4.setBackground(Color.BLACK); //color de fondo negro
+        etiqueta4.setForeground(Color.YELLOW); //color de la letra
+        etiqueta4.setHorizontalAlignment(SwingConstants.LEFT); //justifica a la izquierda
+        etiqueta4.setFont(new Font("ARIAL",0,16)); //define fuente y tamaño
+        panel.add(etiqueta4); //agrega la etiqueta al panel
         
         
     }
