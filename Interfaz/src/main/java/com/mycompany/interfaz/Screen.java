@@ -59,8 +59,8 @@ public class Screen extends JFrame {
         JLabel resultado = crearEtiqueta(180, 200, "########");
         panel.add(resultado);
 
-        JLabel imagen = new JLabel(new ImageIcon("C:\\Users\\f_a_b\\Desktop\\uis\\2022\\Java-6AM\\gui6PM\\src\\main\\java\\gui\\logos\\logo.jpg"));
-        imagen.setBounds(100, 450, 378, 110);
+        JLabel imagen = new JLabel(new ImageIcon("D:\\MinTic\\Java-basico\\Interfaz\\src\\main\\java\\com\\mycompany\\interfaz\\Imagenes\\Caro.jpg"));
+        imagen.setBounds(100, 400, 250, 100);
         panel.add(imagen);
 
         JTextField numero1 = new JTextField();
