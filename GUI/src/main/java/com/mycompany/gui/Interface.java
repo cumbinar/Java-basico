@@ -81,6 +81,7 @@ public class Interface extends javax.swing.JFrame {
         numero1.setForeground(new java.awt.Color(0, 0, 0));
 
         sumar.setText("SUMAR");
+        sumar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         sumar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sumarActionPerformed(evt);
@@ -88,6 +89,7 @@ public class Interface extends javax.swing.JFrame {
         });
 
         restar.setText("RESTAR");
+        restar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         restar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 restarActionPerformed(evt);
@@ -95,6 +97,7 @@ public class Interface extends javax.swing.JFrame {
         });
 
         multiplicar.setText("MULTIPLICAR");
+        multiplicar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         multiplicar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 multiplicarActionPerformed(evt);
@@ -102,6 +105,7 @@ public class Interface extends javax.swing.JFrame {
         });
 
         dividir.setText("DIVIDIR");
+        dividir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         dividir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dividirActionPerformed(evt);
