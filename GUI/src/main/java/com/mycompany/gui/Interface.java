@@ -268,8 +268,8 @@ public class Interface extends javax.swing.JFrame {
 
     private void sumarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sumarMouseEntered
         // TODO add your handling code here:
-        sumar.setBackground(Color.PINK);
-        sumar.setForeground(new Color(255,255,255));
+        sumar.setBackground(new Color(250,200,50));
+        sumar.setForeground(new Color(0,0,250));
     }//GEN-LAST:event_sumarMouseEntered
 
     private void sumarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sumarMouseExited
@@ -281,8 +281,8 @@ public class Interface extends javax.swing.JFrame {
 
     private void restarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_restarMouseEntered
         // TODO add your handling code here:
-        restar.setBackground(Color.PINK);
-        restar.setForeground(new Color(255,255,255));
+        restar.setBackground(new Color(250,200,50));
+        restar.setForeground(new Color(0,0,250));
     }//GEN-LAST:event_restarMouseEntered
 
     private void restarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_restarMouseExited
@@ -293,8 +293,8 @@ public class Interface extends javax.swing.JFrame {
 
     private void multiplicarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_multiplicarMouseEntered
         // TODO add your handling code here:
-        multiplicar.setBackground(Color.PINK);
-        multiplicar.setForeground(new Color(255,255,255));
+        multiplicar.setBackground(new Color(250,200,50));
+        multiplicar.setForeground(new Color(0,0,250));
     }//GEN-LAST:event_multiplicarMouseEntered
 
     private void multiplicarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_multiplicarMouseExited
@@ -311,8 +311,8 @@ public class Interface extends javax.swing.JFrame {
 
     private void dividirMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dividirMouseEntered
         // TODO add your handling code here:
-        dividir.setBackground(Color.PINK);
-        dividir.setForeground(new Color(255,255,255));
+        dividir.setBackground(new Color(250,200,50));
+        dividir.setForeground(new Color(0,0,250));
     }//GEN-LAST:event_dividirMouseEntered
 
     /**
