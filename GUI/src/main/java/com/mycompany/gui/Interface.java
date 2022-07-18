@@ -120,6 +120,14 @@ public class Interface extends javax.swing.JFrame {
 
         multiplicar.setText("MULTIPLICAR");
         multiplicar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        multiplicar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                multiplicarMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                multiplicarMouseExited(evt);
+            }
+        });
         multiplicar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 multiplicarActionPerformed(evt);
@@ -274,6 +282,18 @@ public class Interface extends javax.swing.JFrame {
         restar.setBackground(new Color(204,204,204));
         restar.setForeground(new Color(0,0,0));
     }//GEN-LAST:event_restarMouseExited
+
+    private void multiplicarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_multiplicarMouseEntered
+        // TODO add your handling code here:
+        multiplicar.setBackground(Color.PINK);
+        multiplicar.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_multiplicarMouseEntered
+
+    private void multiplicarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_multiplicarMouseExited
+        // TODO add your handling code here:
+        multiplicar.setBackground(new Color(204,204,204));
+        multiplicar.setForeground(new Color(0,0,0));
+    }//GEN-LAST:event_multiplicarMouseExited
 
     /**
      * @param args the command line arguments
