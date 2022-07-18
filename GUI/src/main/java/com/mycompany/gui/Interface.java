@@ -104,6 +104,14 @@ public class Interface extends javax.swing.JFrame {
 
         restar.setText("RESTAR");
         restar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        restar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                restarMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                restarMouseExited(evt);
+            }
+        });
         restar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 restarActionPerformed(evt);
@@ -254,6 +262,18 @@ public class Interface extends javax.swing.JFrame {
         sumar.setForeground(new Color(0,0,0));
         
     }//GEN-LAST:event_sumarMouseExited
+
+    private void restarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_restarMouseEntered
+        // TODO add your handling code here:
+        restar.setBackground(Color.PINK);
+        restar.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_restarMouseEntered
+
+    private void restarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_restarMouseExited
+        // TODO add your handling code here:
+        restar.setBackground(new Color(204,204,204));
+        restar.setForeground(new Color(0,0,0));
+    }//GEN-LAST:event_restarMouseExited
 
     /**
      * @param args the command line arguments
