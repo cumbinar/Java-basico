@@ -4,6 +4,8 @@
  */
 package com.mycompany.gui;
 
+import java.awt.Color;
+
 /**
  *
  * @author educu
@@ -82,8 +84,18 @@ public class Interface extends javax.swing.JFrame {
         numero1.setBackground(new java.awt.Color(255, 255, 204));
         numero1.setForeground(new java.awt.Color(0, 0, 0));
 
+        sumar.setBackground(new java.awt.Color(204, 204, 204));
+        sumar.setForeground(new java.awt.Color(0, 0, 0));
         sumar.setText("SUMAR");
         sumar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        sumar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                sumarMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                sumarMouseExited(evt);
+            }
+        });
         sumar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sumarActionPerformed(evt);
@@ -229,6 +241,19 @@ public class Interface extends javax.swing.JFrame {
         double num2 = Double.parseDouble(numero2.getText());
         salida.setText(String.valueOf(num1/num2));
     }//GEN-LAST:event_dividirActionPerformed
+
+    private void sumarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sumarMouseEntered
+        // TODO add your handling code here:
+        sumar.setBackground(Color.PINK);
+        sumar.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_sumarMouseEntered
+
+    private void sumarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sumarMouseExited
+        // TODO add your handling code here:
+        sumar.setBackground(new Color(204,204,204));
+        sumar.setForeground(new Color(0,0,0));
+        
+    }//GEN-LAST:event_sumarMouseExited
 
     /**
      * @param args the command line arguments
