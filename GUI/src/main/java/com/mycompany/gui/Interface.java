@@ -136,6 +136,14 @@ public class Interface extends javax.swing.JFrame {
 
         dividir.setText("DIVIDIR");
         dividir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dividir.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                dividirMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                dividirMouseExited(evt);
+            }
+        });
         dividir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dividirActionPerformed(evt);
@@ -294,6 +302,18 @@ public class Interface extends javax.swing.JFrame {
         multiplicar.setBackground(new Color(204,204,204));
         multiplicar.setForeground(new Color(0,0,0));
     }//GEN-LAST:event_multiplicarMouseExited
+
+    private void dividirMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dividirMouseExited
+        // TODO add your handling code here:
+        dividir.setBackground(new Color(204,204,204));
+        dividir.setForeground(new Color(0,0,0));
+    }//GEN-LAST:event_dividirMouseExited
+
+    private void dividirMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dividirMouseEntered
+        // TODO add your handling code here:
+        dividir.setBackground(Color.PINK);
+        dividir.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_dividirMouseEntered
 
     /**
      * @param args the command line arguments
