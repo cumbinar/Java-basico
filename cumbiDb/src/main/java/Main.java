@@ -18,7 +18,7 @@ public class Main {
        
         ConexionDb conexion = new ConexionDb();
        
-        String query = "INSERT INTO productos (nombre, temperatura, valorBase) VALUES (\"Stendra\", 15, 5555550);";
+        String query = "INSERT INTO productos (nombre, temperatura, valorBase) VALUES (\"Dololed\", 25, 665550);";
       
         
         conexion.ejecutarQuery(query);
