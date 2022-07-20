@@ -5,13 +5,21 @@
 
 package com.mycompany.mvc;
 
+import modelo.Modelo;
+import vista.Vista;
+import controlador.Controlador;
 /**
  *
  * @author educu
  */
-public class MVC {
+public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Modelo model = new Modelo();
+        Vista view = new Vista();
+        
+        Controlador ctrl = new Controlador(view, model);
+        ctrl.iniciar();
+        view.setVisible(true);
     }
 }
