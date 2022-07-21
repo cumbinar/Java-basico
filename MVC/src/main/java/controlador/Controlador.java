@@ -26,10 +26,7 @@ public class Controlador implements ActionListener{
         this.view.btnMultiplicar.addActionListener(this); //los elementos de la vista deben ser publicos
     }
     
-    public void iniciar(){
-        view.setTitle("Cumbi MVC"); //titulo de la ventana
-        view.setLocationRelativeTo(null);//coloca la ventana en el centro de la pantalla
-    }
+ 
     @Override
     public void actionPerformed(ActionEvent e){
          //capturar la información de textoNumero1 y pasarlo a atributo del modelo correspondiente
