@@ -35,6 +35,12 @@ public class Vista extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        textNumeroUno.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                textNumeroUnoActionPerformed(evt);
+            }
+        });
+
         txtNumeroDos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNumeroDosActionPerformed(evt);
@@ -98,6 +104,10 @@ public class Vista extends javax.swing.JFrame {
     private void txtNumeroDosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumeroDosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNumeroDosActionPerformed
+
+    private void textNumeroUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textNumeroUnoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_textNumeroUnoActionPerformed
 
     /**
      * @param args the command line arguments

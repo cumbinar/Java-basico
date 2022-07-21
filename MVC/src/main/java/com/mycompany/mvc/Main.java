@@ -15,11 +15,11 @@ import controlador.Controlador;
 public class Main {
 
     public static void main(String[] args) {
-        Modelo model = new Modelo();
+        Modelo model = new Modelo(0,0,0);
         Vista view = new Vista();
         
         Controlador ctrl = new Controlador(view, model);
-        ctrl.iniciar();
         view.setVisible(true);
+        
     }
 }
